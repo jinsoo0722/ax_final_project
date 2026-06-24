@@ -1,0 +1,393 @@
+{
+  "model_dict": {
+    "tree": {
+      "col_idx": 5,
+      "feature": "BusinessTravel",
+      "threshold": 1.0,
+      "left": {
+        "col_idx": 6,
+        "feature": "OverTime",
+        "threshold": 0.0,
+        "left": {
+          "col_idx": 7,
+          "feature": "MonthlyIncome",
+          "threshold": 4860.835714285715,
+          "left": {
+            "col_idx": 10,
+            "feature": "NumCompaniesWorked",
+            "threshold": 6.0,
+            "left": {
+              "col_idx": 20,
+              "feature": "JobInvolvement",
+              "threshold": 1.0,
+              "left": {
+                "prob": 0.7,
+                "samples": 20
+              },
+              "right": {
+                "prob": 0.4121212121212121,
+                "samples": 165
+              },
+              "prob": 0.44324324324324327,
+              "samples": 185
+            },
+            "right": {
+              "col_idx": 18,
+              "feature": "RelationshipSatisfaction",
+              "threshold": 2.0,
+              "left": {
+                "prob": 0.5454545454545454,
+                "samples": 11
+              },
+              "right": {
+                "prob": 0.1111111111111111,
+                "samples": 36
+              },
+              "prob": 0.2127659574468085,
+              "samples": 47
+            },
+            "prob": 0.39655172413793105,
+            "samples": 232
+          },
+          "right": {
+            "col_idx": 15,
+            "feature": "YearsWithCurrManager",
+            "threshold": 17.0,
+            "left": {
+              "col_idx": 5,
+              "feature": "BusinessTravel",
+              "threshold": 0.0,
+              "left": {
+                "prob": 0.045454545454545456,
+                "samples": 22
+              },
+              "right": {
+                "prob": 0.23333333333333334,
+                "samples": 150
+              },
+              "prob": 0.20930232558139536,
+              "samples": 172
+            },
+            "right": {
+              "prob": 1.0,
+              "samples": 2
+            },
+            "prob": 0.21839080459770116,
+            "samples": 174
+          },
+          "prob": 0.32019704433497537,
+          "samples": 406
+        },
+        "right": {
+          "col_idx": 16,
+          "feature": "JobSatisfaction",
+          "threshold": 1.0,
+          "left": {
+            "col_idx": 19,
+            "feature": "WorkLifeBalance",
+            "threshold": 3.0,
+            "left": {
+              "prob": 1.0,
+              "samples": 13
+            },
+            "right": {
+              "prob": 0.5714285714285714,
+              "samples": 7
+            },
+            "prob": 0.85,
+            "samples": 20
+          },
+          "right": {
+            "col_idx": 10,
+            "feature": "NumCompaniesWorked",
+            "threshold": 6.0,
+            "left": {
+              "col_idx": 0,
+              "feature": "Age",
+              "threshold": 30.67142857142857,
+              "left": {
+                "prob": 0.5769230769230769,
+                "samples": 26
+              },
+              "right": {
+                "prob": 0.35064935064935066,
+                "samples": 77
+              },
+              "prob": 0.4077669902912621,
+              "samples": 103
+            },
+            "right": {
+              "col_idx": 15,
+              "feature": "YearsWithCurrManager",
+              "threshold": 1.0,
+              "left": {
+                "prob": 0.9333333333333333,
+                "samples": 15
+              },
+              "right": {
+                "prob": 0.36363636363636365,
+                "samples": 11
+              },
+              "prob": 0.6923076923076923,
+              "samples": 26
+            },
+            "prob": 0.46511627906976744,
+            "samples": 129
+          },
+          "prob": 0.5167785234899329,
+          "samples": 149
+        },
+        "prob": 0.372972972972973,
+        "samples": 555
+      },
+      "right": {
+        "col_idx": 0,
+        "feature": "Age",
+        "threshold": 40.31428571428572,
+        "left": {
+          "col_idx": 17,
+          "feature": "EnvironmentSatisfaction",
+          "threshold": 2.0,
+          "left": {
+            "col_idx": 4,
+            "feature": "JobRole",
+            "threshold": 3.0,
+            "left": {
+              "prob": 0.7777777777777778,
+              "samples": 9
+            },
+            "right": {
+              "prob": 0.2,
+              "samples": 5
+            },
+            "prob": 0.5714285714285714,
+            "samples": 14
+          },
+          "right": {
+            "col_idx": 13,
+            "feature": "YearsInCurrentRole",
+            "threshold": 2.0,
+            "left": {
+              "col_idx": 11,
+              "feature": "TotalWorkingYears",
+              "threshold": 0.0,
+              "left": {
+                "prob": 0.6666666666666666,
+                "samples": 6
+              },
+              "right": {
+                "prob": 1.0,
+                "samples": 21
+              },
+              "prob": 0.9259259259259259,
+              "samples": 27
+            },
+            "right": {
+              "prob": 0.3333333333333333,
+              "samples": 3
+            },
+            "prob": 0.8666666666666667,
+            "samples": 30
+          },
+          "prob": 0.7727272727272727,
+          "samples": 44
+        },
+        "right": {
+          "col_idx": 9,
+          "feature": "PercentSalaryHike",
+          "threshold": 14.0,
+          "left": {
+            "prob": 1.0,
+            "samples": 6
+          },
+          "right": {
+            "col_idx": 1,
+            "feature": "Gender",
+            "threshold": 0.0,
+            "left": {
+              "col_idx": 0,
+              "feature": "Age",
+              "threshold": 49.0,
+              "left": {
+                "prob": 0.42857142857142855,
+                "samples": 14
+              },
+              "right": {
+                "prob": 1.0,
+                "samples": 5
+              },
+              "prob": 0.5789473684210527,
+              "samples": 19
+            },
+            "right": {
+              "col_idx": 7,
+              "feature": "MonthlyIncome",
+              "threshold": 2107.0,
+              "left": {
+                "prob": 1.0,
+                "samples": 1
+              },
+              "right": {
+                "prob": 0.14285714285714285,
+                "samples": 14
+              },
+              "prob": 0.2,
+              "samples": 15
+            },
+            "prob": 0.4117647058823529,
+            "samples": 34
+          },
+          "prob": 0.5,
+          "samples": 40
+        },
+        "prob": 0.6428571428571429,
+        "samples": 84
+      },
+      "prob": 0.4084507042253521,
+      "samples": 639
+    },
+    "feature_importances": {
+      "Age": 0.09996899015198642,
+      "Gender": 0.032032619426861135,
+      "MaritalStatus": 0.0,
+      "Department": 0.0,
+      "JobRole": 0.02855452016222596,
+      "BusinessTravel": 0.1594371087110733,
+      "OverTime": 0.11209164327870741,
+      "MonthlyIncome": 0.10223345547573467,
+      "JobLevel": 0.0,
+      "PercentSalaryHike": 0.04696140193752791,
+      "NumCompaniesWorked": 0.09770723158935274,
+      "TotalWorkingYears": 0.013798535384113098,
+      "YearsAtCompany": 0.0,
+      "YearsInCurrentRole": 0.02523160755952117,
+      "YearsSinceLastPromotion": 0.0,
+      "YearsWithCurrManager": 0.08770357345516623,
+      "JobSatisfaction": 0.06825920764828923,
+      "EnvironmentSatisfaction": 0.022141657242522227,
+      "RelationshipSatisfaction": 0.04229924055024891,
+      "WorkLifeBalance": 0.02223957820327218,
+      "JobInvolvement": 0.03933962922339736,
+      "PerformanceRating": 0.0
+    }
+  },
+  "metrics": {
+    "accuracy": 0.6273291925465838,
+    "precision": 0.575,
+    "recall": 0.3484848484848485,
+    "f1": 0.4339622641509434,
+    "auc": 0.6094098883572573,
+    "feature_importances": [
+      {
+        "feature": "BusinessTravel",
+        "label": "출장 빈도",
+        "importance": 0.1594371087110733
+      },
+      {
+        "feature": "OverTime",
+        "label": "야근 빈도",
+        "importance": 0.11209164327870741
+      },
+      {
+        "feature": "MonthlyIncome",
+        "label": "월 소득",
+        "importance": 0.10223345547573467
+      },
+      {
+        "feature": "Age",
+        "label": "나이",
+        "importance": 0.09996899015198642
+      },
+      {
+        "feature": "NumCompaniesWorked",
+        "label": "이직 횟수",
+        "importance": 0.09770723158935274
+      },
+      {
+        "feature": "YearsWithCurrManager",
+        "label": "현 관리자와 함께한 년수",
+        "importance": 0.08770357345516623
+      },
+      {
+        "feature": "JobSatisfaction",
+        "label": "직무 만족도",
+        "importance": 0.06825920764828923
+      },
+      {
+        "feature": "PercentSalaryHike",
+        "label": "급여 인상률",
+        "importance": 0.04696140193752791
+      },
+      {
+        "feature": "RelationshipSatisfaction",
+        "label": "동료 관계 만족도",
+        "importance": 0.04229924055024891
+      },
+      {
+        "feature": "JobInvolvement",
+        "label": "업무 몰입도",
+        "importance": 0.03933962922339736
+      },
+      {
+        "feature": "Gender",
+        "label": "성별",
+        "importance": 0.032032619426861135
+      },
+      {
+        "feature": "JobRole",
+        "label": "직무",
+        "importance": 0.02855452016222596
+      },
+      {
+        "feature": "YearsInCurrentRole",
+        "label": "현 직무 근속 년수",
+        "importance": 0.02523160755952117
+      },
+      {
+        "feature": "WorkLifeBalance",
+        "label": "워라밸 만족도",
+        "importance": 0.02223957820327218
+      },
+      {
+        "feature": "EnvironmentSatisfaction",
+        "label": "근무 환경 만족도",
+        "importance": 0.022141657242522227
+      },
+      {
+        "feature": "TotalWorkingYears",
+        "label": "총 경력 년수",
+        "importance": 0.013798535384113098
+      },
+      {
+        "feature": "MaritalStatus",
+        "label": "결혼 여부",
+        "importance": 0.0
+      },
+      {
+        "feature": "Department",
+        "label": "부서",
+        "importance": 0.0
+      },
+      {
+        "feature": "JobLevel",
+        "label": "직무 레벨",
+        "importance": 0.0
+      },
+      {
+        "feature": "YearsAtCompany",
+        "label": "근속 년수",
+        "importance": 0.0
+      },
+      {
+        "feature": "YearsSinceLastPromotion",
+        "label": "마지막 승진 후 경과 년수",
+        "importance": 0.0
+      },
+      {
+        "feature": "PerformanceRating",
+        "label": "인사 평가 등급",
+        "importance": 0.0
+      }
+    ]
+  }
+}

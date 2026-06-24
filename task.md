@@ -1,0 +1,23 @@
+# Tasks
+
+- [ ] Project Setup & Dependencies
+  - [ ] Initialize Python Virtual Environment and install packages (`backend/requirements.txt`)
+  - [ ] Initialize Vite + React project in the `frontend` folder
+- [ ] Backend Implementation (Python)
+  - [ ] Write synthetic HR dataset generator (`backend/app/data/generate_dataset.py`)
+  - [ ] Create ML Trainer & Predictor (`backend/app/model.py`)
+  - [ ] Implement AI/AX Consulting Chatbot Engine (`backend/app/llm.py`)
+  - [ ] Build FastAPI server with all endpoints (`backend/app/main.py`)
+- [ ] Frontend Implementation (React)
+  - [ ] Configure `vite.config.js` with proxy and set up basic packages
+  - [ ] Create Vanilla CSS Premium Design System (`frontend/src/index.css`)
+  - [ ] Create Sidebar & Header shell (`frontend/src/App.jsx`)
+  - [ ] Develop Dashboard view with charts and stats (`frontend/src/components/Dashboard.jsx`)
+  - [ ] Develop Employee Directory list and filters (`frontend/src/components/EmployeeList.jsx`)
+  - [ ] Develop Detailed Employee Profile with risk factors (`frontend/src/components/EmployeeDetail.jsx`)
+  - [ ] Develop ChatGPT-style AI Consultant component (`frontend/src/components/Chatbot.jsx`)
+  - [ ] Develop Model Metrics & Retraining UI (`frontend/src/components/ModelManagement.jsx`)
+- [ ] Testing & Verification
+  - [ ] Verify backend predictions and training APIs
+  - [ ] Run Vite production build to verify no bundling errors
+  - [ ] Test the full system manually to ensure AX chatbot flow is natural and zero-friction
